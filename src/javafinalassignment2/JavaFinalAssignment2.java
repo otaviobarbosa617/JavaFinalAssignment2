@@ -1,16 +1,13 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+
+COMP 2130 - Application Development using Java - Final Project
+Janine Mae Usana - 101328279
+Omar Nabi - 101339235
+Otavio Pereira-Barbosa - 101337690
+
  */
 package javafinalassignment2;
-//testing git
-//testing Intelij
 
-/**
- *
- * @author otaviobarbosa
- */
 public class JavaFinalAssignment2 {
 
     /**
