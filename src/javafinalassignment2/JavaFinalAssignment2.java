@@ -19,10 +19,19 @@ public class JavaFinalAssignment2 {
         cm1.setContact("Otavio","Barbosa","6474623407","None",
                 "265 Balliol","Apt 2008","Toronto", "M4S1C9",
                 "ON", "CA", "otavio@otaviophoto.com", 19,06,1988,"None");
-        cm1.findContact("Otavio");
-        cm1.viewContactList();
-        cm1.deleteContact("Otavio");
-        cm1.viewContactList();
+        cm1.setContact("Luciane","Barbosa","6474623407","None",
+                "265 Balliol","Apt 2008","Toronto", "M4S1C9",
+                "ON", "CA", "otavio@otaviophoto.com", 19,06,1988,"None");
+//        cm1.contactsByCity("Toronto");
+
+        //Modify contact: first find contact by strings,
+        // retrieve the indexOf int, call the list, call item with int, and then set based on the setters;
+        cm1.findContact("Luciane", "Barbosa");
+        int indexOf = cm1.getIndexOf();
+        cm1.getContactList().get(indexOf).setNotes("luciane modified");
+        System.out.println(cm1.getContactList().get(indexOf));
+
+
 
 
 

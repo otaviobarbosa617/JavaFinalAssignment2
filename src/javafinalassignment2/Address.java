@@ -20,13 +20,11 @@ public class Address {
 
     @Override
     public String toString() {
-        return "Address " +
-                "Street Info 1:'" + streetInfo1 + '\'' +
-                ", Street Info 2'" + streetInfo2 + '\'' +
-                ", City: '" + city + '\'' +
-                ", Postal Code:'" + postalCode + '\'' +
-                ", Province: '" + province + '\'' +
-                ", Country: '" + country + '\'' +
-                '}';
+        return  "\nStreet Info 1: " + streetInfo1 +
+                "\nStreet Info 2: " + streetInfo2 +
+                "\nCity: " + city  +
+                "\nPostal Code: " + postalCode  +
+                "\nProvince: " + province  +
+                "\nCountry: " + country;
     }
 }

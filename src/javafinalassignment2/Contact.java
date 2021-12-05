@@ -91,15 +91,12 @@ public class Contact {
 
     @Override
     public String toString() {
-        return "Contact Info" + '\'' +
-                "First Name:'" + firstName + '\'' +
-                ", Last Name: '" + lastName + '\'' +
-                ", Home Phone'" + homePhone + '\'' +
-                ", Work Phone:'" + workPhone + '\'' +
-                ", Home Address: " + homeAddress +
-                ", Email: '" + email + '\'' +
-                ", Birthday: '" + birthday +
-                ", Notes: '" + notes + '\'' +
-                '}';
+        return  "\nFirst Name: " + firstName + "\n" +
+                "Last Name: " + lastName + '\n' +
+                "Home Phone: " + homePhone + '\n' +
+                "Work Phone: " + workPhone + '\n' +
+                "Email: " + email + '\n' +
+                "Birthday: " + birthday + homeAddress +
+                "\nNotes: " + notes + '\n';
     }
 }
